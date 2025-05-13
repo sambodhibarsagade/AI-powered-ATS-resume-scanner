@@ -83,11 +83,16 @@ Then use something like Postman or CURL to test the file upload and see the gene
 Note: If you're new to Flask or don't have Postman, I recommend checking a simple Flask file-upload tutorial. The app runs in the background, so there's no UI for now.
 
 ## Why I Made This
-I wanted to better understand how AI and data extraction tools can work together. This project helped me practice:
---Resume parsing
---Working with unstructured text data
---Using Python libraries for file processing
---Exporting structured output
---Building basic backend services
+I wanted to create something practical that combined my interest in AI, automation, and real-world applications. While learning about how companies use Applicant Tracking Systems (ATS) to filter resumes, I realized most people never see how these systems work behind the scenes.
 
-This is still a work in progress.
+So I decided to build my own version — a tool that could extract useful information from resumes (like name, skills, and experience) and organize it in a clean, readable format like Excel.
+
+This project helped me:
+
+- Practice working with unstructured text data (PDFs, DOCX)
+- Understand how data parsing and pattern recognition can be used in resume analysis
+- Learn how to connect a frontend and backend in a real-world web application
+- Simulate part of what happens in AI-driven recruitment systems
+
+Ultimately, I built this project to sharpen my skills, explore how ATS systems work, and make something that could actually help users or companies handle resumes more efficiently.
+
